@@ -13,10 +13,10 @@ export IMMICH_URL="https://immich.example.com"   # "/api" suffix is optional
 export IMMICH_API_KEY="your-api-key"
 
 # Preview the targets without changing anything
-python3 immich/rating_to_favorite.py --dry-run
+python3 ./rating_to_favorite.py --dry-run
 
 # Apply the changes
-python3 immich/rating_to_favorite.py
+python3 ./rating_to_favorite.py
 ```
 
 | Option           | Description                                          |
